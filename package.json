@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0"
+  },
+  "dependencies": {
+    "@sanity/cli": "^3.1.2",
+    "@sanity/client": "^4.0.0",
+    "@sanity/image-url": "^1.0.1",
+    "sanity-blocks-vue-component": "^1.0.1"
+  }
+}
